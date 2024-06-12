@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://pkmanas22:paytm@paytm.q2dw367.mongodb.net/paytm')
+mongoose.connect('url goes here')
     .then("Mongo Connected")
 
 // simple schema
