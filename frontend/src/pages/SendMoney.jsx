@@ -42,7 +42,7 @@ export default function SendMoney() {
                                 alert('Enter valid amount')
                             } else {
                                 axios
-                                    .post('http://localhost:3000/api/v1/account/transfer', {
+                                    .post('http://localhost:3002/api/v1/account/transfer', {
                                         to,
                                         amount
                                     }, {

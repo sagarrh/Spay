@@ -59,7 +59,7 @@ export default function Signup() {
                         type={"password"} />
                     < Button
                         onClickFn={async () => {
-                            axios.post('http://localhost:3000/api/v1/user/signup', {
+                            axios.post('http://localhost:3002/api/v1/user/signup', {
                                 userName,
                                 firstName,
                                 lastName,
